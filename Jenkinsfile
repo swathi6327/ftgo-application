@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git(
-                 branch: "main", url: "https://github.com/swathi6327/static_website_practice.git",
+                 branch: "main", url: "https://github.com/swathi6327/ftgo-application.git",
                  credentialsId: 'GIT-CRED'
                 )    
             }
